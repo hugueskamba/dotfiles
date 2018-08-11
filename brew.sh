@@ -41,6 +41,8 @@ brew install screen
 brew install tmux
 brew install python
 brew install watch
+brew install gnu-getopt
+brew install htop
 
 # Install font tools.
 #brew tap bramstein/webfonttools
