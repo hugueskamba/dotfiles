@@ -72,7 +72,7 @@ if tput setaf 1 &> /dev/null; then
 	cyan=$(tput setaf 37);
 	green=$(tput setaf 64);
 	orange=$(tput setaf 166);
-	purple=$(tput setaf 125);
+	purple=$(tput setaf 125);https://arm-isg.slack.com/archives/DMEPHGH37/p1574941728012900
 	red=$(tput setaf 124);
 	violet=$(tput setaf 61);
 	white=$(tput setaf 15);
@@ -115,8 +115,7 @@ PS1+="\[${hostStyle}\]\h"; # host
 PS1+="\[${white}\] in ";
 PS1+="\[${green}\]\w"; # working directory full path
 PS1+="\$(prompt_git \"\[${white}\] on \[${violet}\]\" \"\[${blue}\]\")"; # Git repository details
-PS1+="\[${white}\]\$ \[${reset}\]"; # `$` (and reset color)
-PS1+="\$ "
+PS1+="\[${white}\]\n\$ \[${reset}\]"; # `$` (and reset color)
 export PS1;
 
 PS2="\[${yellow}\]→ \[${reset}\]";
