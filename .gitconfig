@@ -17,6 +17,9 @@
 
 	# Clone a repository including all submodules
 	c = clone --recursive
+	
+	# Fetch all and prune
+	f = !"git fetch --all -p"
 
 	# Commit all changes
 	ca = !git add -A && git commit -av
@@ -90,7 +93,7 @@
 [apply]
 
 	# Detect whitespace errors when applying a patch
-	whitespace = fix
+	whitespace = warn
 
 [core]
 
